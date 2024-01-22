@@ -202,7 +202,7 @@ function addAssetSceneToControllerModel( controllerModel, scene ) {
 
 class XRCustomController{
 
-    constructor( assetPath = '../assets/', loader = null){
+    constructor( assetPath = 'assets/', loader = null){
 	
 		this.gltfLoader = loader;
         this.profilesPath = DEFAULT_PROFILES_PATH;
